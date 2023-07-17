@@ -7,11 +7,12 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-# 10.times do
-#   Client.create!([
-#     { name: Faker::Name.name, age: Faker::Number.between(from: 18, to: 100) }
-#   ])
-# end
+10.times do
+  Client.create!([
+    { name: Faker::Name.name, age: Faker::Number.between(from: 18, to: 100) }
+  ])
+end
+
 100.times do
       Movie.create!([
         { name: Faker::Movie.title, client_id:Faker::Number.between(from: 1, to: 10) }
