@@ -26,10 +26,16 @@ Lista de software y herramientas, incluyendo versiones, que necesitas para insta
 - Base de datos PostgreSQL 14
 
 ### Instalación 🔧
-
+Para llevar el proyecto a heroku: 
+Pasos para crear el proyecto en heroku
+1.-Heroku Login
+2.-Heroku create (nota mental, nunca borre el proyecto que ya creó)
+3.- en consola ->git push heroku main
+4.- Al abrir la aplicacion: dará error 500 
+5.- ir a la consola rails y aplicar el siguiente comando: heroku run rails db:migrate
 
 ## Despliegue 📦
-
+ir a heroku.com y en el menú Dashboard/Deploy/oppen app 
 
 
 ## Construido Con 🛠️
