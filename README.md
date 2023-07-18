@@ -44,7 +44,7 @@ ir a heroku.com y en el menú Dashboard/Deploy/oppen app
 - [Ruby on Rails](https://rubyonrails.org) - El framework web utilizado
 - [Ruby gems](https://rubygems.org) - Gestión de dependencias
 - [Postgresql](https://www.postgresql.org) - Sistema de base de datos
-- [Bulma IO](https://https://getbootstrap.com/) - Framework de CSS
+- [Bootstrap](https://https://getbootstrap.com/) - Framework de CSS
 
 ## Contribuyendo 🖇️
 
